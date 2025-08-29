@@ -214,6 +214,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-**Contact**:[[LinkedIn Profile](https://www.linkedin.com/in/vinod-anbalagan/)
+**Contact**:[LinkedIn Profile](https://www.linkedin.com/in/vinod-anbalagan/)
 
 **Research Statement**: *"Understanding how neural networks combine knowledge is fundamental to building AI systems that can specialize deeply while maintaining broad capabilities."*

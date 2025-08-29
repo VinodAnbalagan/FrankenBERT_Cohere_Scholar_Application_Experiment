@@ -29,34 +29,6 @@ This experiment provides empirical evidence for:
 - Understanding why simple merging strategies fail
 - Informing design of mixture-of-experts systems
 
-## Quick Start
-
-### Installation
-
-```bash
-git clone https://github.com/VinodAnbalagan/FrankenBERT_Cohere_Scholar_Application_Experiment.git
-cd FrankenBERT_Cohere_Scholar_Application_Experiment
-pip install -r requirements.txt
-```
-
-### Run the Complete Experiment
-
-```bash
-# Execute the full pipeline: train, merge, evaluate
-python run_experiment.py
-
-# Or run individual components
-python src/train_specialists.py
-python src/merge_models.py
-python src/evaluate_models.py
-```
-
-### Generate Visualizations
-
-```bash
-python src/visualize_results.py
-```
-
 ## Methodology
 
 ### 1. Specialist Training
@@ -89,43 +61,6 @@ When tested on wrong tasks, models reveal distinct cognitive styles:
 
 ### No Optimal Merge Ratio
 Performance heatmap shows no "sweet spot" - any contamination causes interference.
-
-## Repository Structure
-
-```
-frankenbert-research/
-├── README.md
-├── requirements.txt
-├── run_experiment.py          # Main experiment runner
-├── src/
-│   ├── __init__.py
-│   ├── train_specialists.py   # Train Poet and Scientist models
-│   ├── merge_models.py        # Parameter averaging implementation
-│   ├── evaluate_models.py     # Cross-task evaluation
-│   ├── visualize_results.py   # Generate charts and heatmaps
-│   └── utils.py              # Helper functions
-├── notebooks/
-│   ├── 01_data_exploration.ipynb
-│   ├── 02_training_analysis.ipynb
-│   ├── 03_merging_experiments.ipynb
-│   └── 04_results_visualization.ipynb
-├── data/
-│   └── processed/            # Cached preprocessed datasets
-├── models/
-│   ├── poet_model/          # Trained sentiment specialist
-│   ├── scientist_model/     # Trained news classifier
-│   └── frankenbert_model/   # Merged model
-├── results/
-│   ├── metrics/             # Performance data
-│   ├── figures/             # Generated visualizations
-│   └── predictions/         # Sample model outputs
-├── docs/
-│   ├── methodology.md       # Detailed experimental design
-│   ├── results_analysis.md  # Comprehensive result interpretation
-│   └── future_work.md       # Research extensions
-└── tests/
-    └── test_merging.py      # Unit tests
-```
 
 ## Technical Implementation
 

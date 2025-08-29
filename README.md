@@ -34,8 +34,8 @@ This experiment provides empirical evidence for:
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/frankenbert-research.git
-cd frankenbert-research
+git clone https://github.com/VinodAnbalagan/FrankenBERT_Cohere_Scholar_Application_Experiment.git
+cd FrankenBERT_Cohere_Scholar_Application_Experiment
 pip install -r requirements.txt
 ```
 
@@ -180,18 +180,6 @@ This work contributes to understanding:
 - **Modular AI architecture** design principles
 - **Multi-task learning** trade-offs and limitations
 
-## Citation
-
-If you use this work in your research, please cite:
-
-```bibtex
-@misc{frankenbert2025,
-  title={FrankenBERT: When AI Specialists Collide - Investigating Knowledge Interference in Neural Network Model Merging},
-  author={[Your Name]},
-  year={2025},
-  url={https://github.com/yourusername/frankenbert-research}
-}
-```
 
 ## Reproducibility
 
@@ -226,6 +214,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-**Contact**: [Your Email] | [LinkedIn Profile] | [Research Portfolio]
+**Contact**:[[LinkedIn Profile](https://www.linkedin.com/in/vinod-anbalagan/)
 
 **Research Statement**: *"Understanding how neural networks combine knowledge is fundamental to building AI systems that can specialize deeply while maintaining broad capabilities."*
